@@ -4,16 +4,29 @@
         "node": true
     },
     "extends": [
-        "airbnb-base"
+        "google"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": "latest",
+        "ecmaVersion": 12,
         "sourceType": "module"
     },
     "plugins": [
         "@typescript-eslint"
     ],
     "rules": {
+        "quotes": [
+            2,
+            "double"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "object-curly-spacing": [
+            2,
+            "always"
+        ],
+        "require-jsdoc": "off"
     }
 }
